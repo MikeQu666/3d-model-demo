@@ -1,6 +1,6 @@
 import * as THREE from 'https://cdn.skypack.dev/three@0.150.1';
-import { OrbitControls } from 'https://cdn.skypack.dev/three@0.150.1/examples/jsm/controls/OrbitControls.js';
-import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/GLTFLoader.js';
+import { OrbitControls } from 'https://cdn.skypack.dev/@three-ts/orbit-controls@2.1.5';  // 专门适配 Skypack 的 OrbitControls 版本
+import { GLTFLoader } from 'https://cdn.skypack.dev/@three-ts/gltf-loader@2.1.1';  // 专门适配 Skypack 的 GLTFLoader 版本
 
 // 创建场景
 const scene = new THREE.Scene();
