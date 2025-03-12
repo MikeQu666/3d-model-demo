@@ -2,6 +2,9 @@ import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.150.1/build/three.m
 import { OrbitControls } from './js/OrbitControls.js';
 import { GLTFLoader } from './js/GLTFLoader.js';
 
+// 后续你的 three.js 场景代码
+
+
 // 创建场景
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
